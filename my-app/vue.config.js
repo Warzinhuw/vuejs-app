@@ -3,7 +3,7 @@ module.exports = {
       disableHostCheck: true,
       proxy: {
         '^/api': {
-          target: 'http://node-api:3080',
+          target: 'localhost:3080',
           changeOrigin: true
         },
       }
