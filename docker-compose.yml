@@ -6,7 +6,6 @@ services:
     image: warzinhuw/topicos-especiais:nodejs-server
     ports:
       - "3080:3080"
-    container_name: node-api
     volumes:
        - ./api:/usr/src/app/api
        - /usr/src/app/api/node_modules
