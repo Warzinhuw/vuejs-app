@@ -7,5 +7,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '.'),
     filename: 'server.bundle.js'
-  }
+  },
+  devServer: {
+    compress: true,
+    disableHostCheck: true
+  }   
 };
